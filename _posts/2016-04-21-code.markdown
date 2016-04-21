@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "Main Code"
+date:   2016-04-21 22:41:21 +0200
+categories: jekyll update
+---
+
+<br/>
+
+{% highlight swift %}
+//*
+//* The Swift Alps is an experimental conference taking place in the Swiss Alps
+//* created by members of the community for the community.
+//*
+
+// Venue
+let leRegent = Venue(town: "Crans-Montana",
+                 latitude: 46.305469,
+                longitude: 7.462191)
+
+// Mentors, more TBA
+let ash = Mentor(name: "Ash Furrow", twitter: "@ashfurrow")
+let orta = Mentor(name: "Orta Therox", twitter: "@orta")
+let maxim = Mentor(name: "Maxim Cramer", twitter: "@mennenia")
+let jp = Mentor(name: "JP Simard", twitter: "@simjp")
+let marin = Mentor(name: "Marin Todorov", twitter: "@icanzilb")
+let mentors = [ash, orta, maxim, jp, marin]
+
+// Conference
+let theSwiftAlps = Conference(type: "Experimental",
+                             dates: ["10.11.2016", "11.11.2016"],
+                             place: leRegent,
+                          speakers: mentors)
+
+theSwiftAlps.run() // performs side effects!
+
+{% endhighlight %}
+
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup" style="padding: 0 12px;">
+<form action="//appbuilders.us12.list-manage.com/subscribe/post?u=34f0052f561ed76a524b93bd1&amp;id=fc88754cc6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    
+<div class="mc-field-group highlight mono">
+    <span class="k">let</span>
+    <span class="nv">myEmail</span>
+    <span class="o">=</span>
+    <span class="s">"</span>
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-Mail">
+    <span class="s">"</span>
+</div>
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34f0052f561ed76a524b93bd1_fc88754cc6" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="myEmail.subscribe()" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
