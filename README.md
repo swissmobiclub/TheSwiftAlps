@@ -1,2 +1,2 @@
 # TheSwiftAlps
-Discussion repo for The Swift Alps
+Please visit [the official website](http://theswiftalps.com) for more information.
