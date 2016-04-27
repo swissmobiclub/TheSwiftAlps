@@ -28,7 +28,7 @@ let mentors = [ash, orta, maxim, jp, marin]
 
 // Conference
 let theSwiftAlps = Conference(type: "Experimental",
-                             dates: ["10.11.2016", "11.11.2016"],
+                             dates: ["x.11.2016", "x+1.11.2016"],
                              place: leRegent,
                           speakers: mentors)
 
@@ -41,6 +41,13 @@ theSwiftAlps.run() // performs side effects!
 <div id="mc_embed_signup" style="padding: 0 12px;">
 <form action="//appbuilders.us12.list-manage.com/subscribe/post?u=34f0052f561ed76a524b93bd1&amp;id=fc88754cc6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
+
+<div class="highlight mono">
+  <span class="k">let</span>
+  <span class="nv">twitter</span>
+  <span class="o">=</span>
+  <span class="s">"<a href="http://twitter.com/swiftalps">@swiftalps</a>"</span>
+</div>
     
 <div class="mc-field-group highlight mono">
     <span class="k">let</span>
