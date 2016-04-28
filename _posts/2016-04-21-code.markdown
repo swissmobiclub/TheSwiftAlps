@@ -24,7 +24,8 @@ let orta = Mentor(name: "Orta Therox", twitter: "@orta")
 let maxim = Mentor(name: "Maxim Cramer", twitter: "@mennenia")
 let jp = Mentor(name: "JP Simard", twitter: "@simjp")
 let marin = Mentor(name: "Marin Todorov", twitter: "@icanzilb")
-let mentors = [ash, orta, maxim, jp, marin]
+let akosma = Mentor(name: "Adrian Kosmaczewski", twitter: "@akosma")
+let mentors = [ash, orta, maxim, jp, marin, akosma]
 
 // Conference
 let theSwiftAlps = Conference(type: "Experimental",
